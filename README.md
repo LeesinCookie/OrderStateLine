@@ -5,8 +5,8 @@
 ![image](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4)</br></br>
 ### 依赖：</br>
 ----------
- #####Step 1.
- ######添加Jitpack到您的root gradle，如果无法导包，一般情况下都是这个原因，请仔细检查
+ ##### Step 1.
+ ###### 添加Jitpack到您的root gradle，如果无法导包，一般情况下都是这个原因，请仔细检查
  ```xml
      allprojects {
 		repositories {
@@ -15,8 +15,8 @@
 		}
 	}
  ```
-#####Step 2.
- ######在需要使用到的Module中添加以下依赖
+##### Step 2.
+ ###### 在需要使用到的Module中添加以下依赖
  ```xml
     dependencies {
 		compile 'com.github.weipeilong123:OrderStateLine:1.0.0'
@@ -25,8 +25,8 @@
  </br></br>
  ----------
  ## 使用方法：</br>
- #####Step 1.</br>
- ######像您平时定制activity布局文件一样定制您的布局
+ ##### Step 1.</br>
+ ###### 像您平时定制activity布局文件一样定制您的布局
  ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -47,8 +47,8 @@
 
 </ScrollView>
  ```
- #####Step 2.</br>
- ######因为继承的LinearLayout，所以请直接addView就行啦
+ ##### Step 2.</br>
+ ###### 因为继承的LinearLayout，所以请直接addView就行啦
  ```java
 private void addItem(String title, String content, String time, boolean isDisplayContent, int currentState) {
         View v = LayoutInflater.from(this).inflate(R.layout.view_order_state_row, underLineLayout, false);
@@ -80,7 +80,7 @@ private void addItem(String title, String content, String time, boolean isDispla
     }
  ```
  ## 各值属性：</br>
- #####attrs.xml:</br>
+ ##### attrs.xml:</br>
 ```xml
  <declare-styleable name="UnderLineLinearLayout">
         <!--时间轴偏移值-->
@@ -109,4 +109,4 @@ private void addItem(String title, String content, String time, boolean isDispla
     </declare-styleable>
 	```
  ## 最后：</br>
- #####不要被那些复杂的布局吓到了，都是一步一步来的.</br>
+ ##### 不要被那些复杂的布局吓到了，都是一步一步来的.</br>
