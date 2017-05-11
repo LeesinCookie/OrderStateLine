@@ -109,7 +109,7 @@ private void addItem(String title, String content, String time, boolean isDispla
  </declare-styleable>
  ```
  ----------</br>
-[Download Demo] (https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/app/app-release.apk "下载Demo")
+[Download Demo](https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/app/app-release.apk "下载Demo")
 
  ----------</br>
  ## 最后：</br>
