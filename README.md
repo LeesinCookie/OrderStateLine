@@ -2,14 +2,14 @@
 这是一个简单的时间轴实现(LinearLayout)
 ----------
 ### 效果图:</br>
-![gif](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4.gif)</br></br>
+![gif](https://github.com/OrderStateLine/image/psb.git)</br></br>
 ### 依赖：</br>
 ----------
  ##### Step 1.
  ###### 添加Jitpack到您的root gradle，如果无法导包，一般情况下都是这个原因，请仔细检查
  ```xml
      allprojects {
-		repositories {
+    	repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
@@ -108,5 +108,8 @@ private void addItem(String title, String content, String time, boolean isDispla
                 </attr>
  </declare-styleable>
  ```
+ </br>
+ ##[Download Demo](https://github.com/OrderStateLine/app/app-release.apk)
+ </br>
  ## 最后：</br>
  ##### 不要被那些复杂的布局吓到了，都是一步一步来的.</br>
