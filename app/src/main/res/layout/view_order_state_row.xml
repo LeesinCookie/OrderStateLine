@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/default_margin_16dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="@dimen/default_margin_16dp"
+    android:paddingTop="@dimen/default_margin_16dp">
+
+    <!--Title-->
+    <TextView
+        android:id="@+id/orderState_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/app_default_text_color_black"
+        android:textSize="@dimen/default_text_size_14" />
+
+    <!--内容提示-->
+    <TextView
+        android:id="@+id/orderState_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderState_title"
+        android:layout_marginTop="@dimen/default_margin_8dp"
+        android:textColor="#aaaaaa"
+        android:textSize="@dimen/default_text_size_12"
+        android:visibility="gone" />
+
+    <!--时间-->
+    <TextView
+        android:id="@+id/orderState_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#aaaaaa"
+        android:textSize="@dimen/default_text_size_12" />
+
+    <!--扩展内容-->
+    <RelativeLayout
+        android:id="@+id/orderState_other"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@id/orderState_content"
+        android:layout_marginTop="@dimen/default_margin_8dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+
