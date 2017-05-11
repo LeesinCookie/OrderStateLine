@@ -2,7 +2,7 @@
 这是一个简单的时间轴实现(LinearLayout)
 ----------
 ### 效果图:</br>
-![image](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4)</br></br>
+![gif](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4)</br></br>
 ### 依赖：</br>
 ----------
  ##### Step 1.
@@ -81,7 +81,7 @@ private void addItem(String title, String content, String time, boolean isDispla
  ```
  ## 各值属性：</br>
  ##### attrs.xml:</br>
-```xml
+ ```xml
  <declare-styleable name="UnderLineLinearLayout">
         <!--时间轴偏移值-->
         <attr name="line_margin_side" format="dimension"/>
@@ -106,7 +106,7 @@ private void addItem(String title, String content, String time, boolean isDispla
                     <enum name="Top" value="1"/>
                     <enum name="Bottom" value="3"/>
                 </attr>
-    </declare-styleable>
-	```
+ </declare-styleable>
+ ```
  ## 最后：</br>
  ##### 不要被那些复杂的布局吓到了，都是一步一步来的.</br>
