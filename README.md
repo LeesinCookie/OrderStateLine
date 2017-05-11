@@ -2,7 +2,7 @@
 这是一个简单的时间轴实现(LinearLayout)
 ----------
 ### 效果图:</br>
-![gif](https://github.com/OrderStateLine/image/psb.git)</br></br>
+![gif](https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/image/psb.gif)</br></br>
 ### 依赖：</br>
 ----------
  ##### Step 1.
@@ -109,7 +109,7 @@ private void addItem(String title, String content, String time, boolean isDispla
  </declare-styleable>
  ```
  </br>
- ##[Download Demo](https://github.com/OrderStateLine/app/app-release.apk)
+ ## [Download Demo](https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/app/app-release.apk)
  </br>
  ## 最后：</br>
  ##### 不要被那些复杂的布局吓到了，都是一步一步来的.</br>
