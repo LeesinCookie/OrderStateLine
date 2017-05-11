@@ -108,9 +108,9 @@ private void addItem(String title, String content, String time, boolean isDispla
                 </attr>
  </declare-styleable>
  ```
-</br>
-[Download Demo](https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/app/app-release.apk "下载Demo")
-</br>
- ----------
+ ----------</br>
+[Download Demo] (https://raw.githubusercontent.com/weipeilong123/OrderStateLine/master/app/app-release.apk "下载Demo")
+
+ ----------</br>
  ## 最后：</br>
  ##### 不要被那些复杂的布局吓到了，都是一步一步来的.</br>
