@@ -2,7 +2,7 @@
 这是一个简单的时间轴实现(LinearLayout)
 ----------
 ### 效果图:</br>
-![gif](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4)</br></br>
+![gif](http://a2.qpic.cn/psb?/V12Didyp2kThP4/ZscYit6YE2LH1gd63CQ7Nga.rqBGt513uFCe8dE78Lk!/b/dBgBAAAAAAAA&bo=4AFPA.ABTwMCvJg!&rf=viewer_4.gif)</br></br>
 ### 依赖：</br>
 ----------
  ##### Step 1.
